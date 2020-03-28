@@ -25,7 +25,10 @@ def main(request):
 
         stats, date = get_stats_and_date(articles_urls[article_index])
         current_dictionary_of_stats = compose_dictionary_of_stats(stats)
-        globals["dictionary_of_stats"][date] = current_dictionary_of_stats
+        is_filled = bool(current_dictionary_of_stats)
+
+        if is_filled:
+            globals["dictionary_of_stats"][date] = current_dictionary_of_stats
 
     return globals["dictionary_of_stats"]
 
@@ -104,16 +107,23 @@ def compose_dictionary_of_stats(arr):
     current_dictionary_of_stats = {}
 
     for current_array in arr:
-        if len(current_array) == 5:
+        is_state_stats = len(current_array) == 5
+
+        if is_state_stats:
+            state_form = current_array[1].strip()
+            cases_form = int(current_array[2].replace(".", ""))
+            deathes_form = int(current_array[3].replace(".", ""))
+            deathes_per_cases_form = float("{0:.4f}".format((deathes_form/cases_form)*100))
+
             temp_uf_stats = {
-                "state"             : current_array[1],
-                "cases"             : int(current_array[2].replace(r"\.", "")),
-                "deathes"           : int(current_array[3].replace(r"\.", "")),
-                "deathes_per_cases" : float("{0:.4f}".format(int(current_array[3])/int(current_array[2])))
+                "state"             : state_form,
+                "cases"             : cases_form,
+                "deathes"           : deathes_form,
+                "deathes_per_cases" : deathes_per_cases_form
             }
-            
-            uf = current_array[0]
-            current_dictionary_of_stats[uf] = temp_uf_stats
+
+            uf_id = int(current_array[0])
+            current_dictionary_of_stats[uf_id] = temp_uf_stats
 
     return current_dictionary_of_stats
 
