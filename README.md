@@ -1,16 +1,16 @@
-# Coronavirus Brazilian Cases
+# Coronavirus: Cases in São Carlos, SP, Brazil
 
-Cloud Function that returns a dictionary (JSON Valid) of official numbers from Ministry of Health of COVID-19 cases in Brazil per state.
+Cloud Function that returns a dictionary (JSON Valid) of official COVID-19 numbers from the São Carlos special committee hotsite.
 
-## Coronavirus Brazilian Cases Cloud Function URL
+## Coronavirus São Carlos Cloud Function URL
 
-- https://us-central1-marcelnishihara.cloudfunctions.net/coronavirus_brazilian_cases
+- 
 
 ## How to Use It
 
-Access this [link](https://us-central1-marcelnishihara.cloudfunctions.net/coronavirus_brazilian_cases) from your browser ou execute a simple curl command to access data:
+Access this [link]() from your browser ou execute a simple curl command to access data:
 
-- `$ curl https://us-central1-marcelnishihara.cloudfunctions.net/coronavirus_brazilian_cases`
+- `$ curl `
 
 Moreover, you can call inside your program as an API.
 
@@ -24,7 +24,7 @@ According to [Google Cloud webpage](https://cloud.google.com/functions), _Cloud 
 
 ## Sources
 
-- [Brazil Ministry of Health](https://saude.gov.br/)
+- [Sao Carlos COVID-19 Special Committee Hotsite](http://coronavirus.saocarlos.sp.gov.br/)
 - [Google Cloud Webpage](https://cloud.google.com/functions)
 
 ## Author

@@ -1,0 +1,169 @@
+{
+    "report_001" : {
+        "date" : "2020-03-17T00:00:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/atualizacao-17-03-2020/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/boletim20200317-1080x641.jpeg",
+        "data" : {
+            "home_isolation" : 13,
+            "hospital_admission" : 0,
+            "positive" : 0,
+            "negative" : 4
+        }
+    },
+    "report_002" : {
+        "date" : "2020-03-19T21:00:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/numeros-convid-19-sao-carlos/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/Casos-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 30,
+            "hospital_admission" : 3,
+            "positive" : 1,
+            "negative" : 4
+        }
+    },
+    "report_003" : {
+        "date" : "2020-03-22T21:30:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/IMG-20200322-WA0022-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 33,
+            "hospital_admission" : 8,
+            "positive" : 1,
+            "negative" : 4
+        }
+    },
+    "report_004" : {
+        "date" : "2020-03-23T23:05:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-2/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/IMG-20200323-WA0016-2-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 31,
+            "hospital_admission" : 9,
+            "positive" : 1,
+            "negative" : 7
+        }
+    },
+    "report_005" : {
+        "date" : "2020-03-24T20:30:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-3/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/IMG-20200324-WA0042-1-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 39,
+            "hospital_admission" : 19,
+            "positive" : 1,
+            "negative" : 7,
+            "deathes_under_investigation" : 3,
+            "deathes_confirmed" : 0
+        }
+    },
+    "report_006" : {
+        "date" : "2020-03-25T21:05:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-4/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/IMG-20200325-WA0012-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 51,
+            "hospital_admission" : 19,
+            "positive" : 1,
+            "negative" : 7,
+            "deathes_under_investigation" : 4,
+            "deathes_confirmed" : 0
+        }
+    },
+    "report_007" : {
+        "date" : "2020-03-26T20:30:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-26-03-2020/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/IMG-20200326-WA0017-1-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 51,
+            "hospital_admission" : 22,
+            "positive" : 1,
+            "negative" : 7,
+            "deathes_under_investigation" : 4,
+            "deathes_confirmed" : 0
+        }
+    },
+    "report_008" : {
+        "date" : "2020-03-27T22:09:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/confirmado-segundo-caso-para-a-covid-19-em-sao-carlos%e2%81%a3/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/PhotoEditor_20200327_194002146-745x641.jpg",
+        "data" : {
+            "home_isolation" : 51,
+            "hospital_admission" : 24,
+            "positive" : 2,
+            "negative" : 7,
+            "deathes_under_investigation" : 4,
+            "deathes_confirmed" : 0,
+            "home_isolation_flu-like_syndrome" : 482
+        }
+    },
+    "report_009" : {
+        "date" : "2020-03-28T22:30:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-28-03-2020/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/IMG-20200328-WA0041-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 37,
+            "hospital_admission" : 24,
+            "positive" : 2,
+            "negative" : 7,
+            "deathes_under_investigation" : 6,
+            "deathes_confirmed" : 0,
+            "home_isolation_flu-like_syndrome" : 530
+        }
+    },
+    "report_010" : {
+        "date" : "2020-03-29T21:43:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-29-03-2020/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/img-20200329-wa0006407627818-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 33,
+            "hospital_admission" : 27,
+            "positive" : 2,
+            "negative" : 11,
+            "deathes_under_investigation" : 6,
+            "deathes_confirmed" : 0,
+            "home_isolation_flu-like_syndrome" : 573
+        }
+    },
+    "report_011" : {
+        "date" : "2020-03-30T21:00:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-30-03-2020-as-18h/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/img-20200330-wa0011112838424-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 33,
+            "hospital_admission" : 29,
+            "positive" : 2,
+            "negative" : 11,
+            "deathes_under_investigation" : 6,
+            "deathes_confirmed" : 0,
+            "home_isolation_flu-like_syndrome" : 614
+        }
+    },
+    "report_012" : {
+        "date" : "2020-04-01T21:05:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/1411-2/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/04/IMG-20200401-WA0015-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 29,
+            "hospital_admission" : 26,
+            "positive" : 2,
+            "negative" : 13,
+            "deathes_under_investigation" : 6,
+            "deathes_confirmed" : 0,
+            "home_isolation_flu-like_syndrome" : 765
+        }
+    },
+    "report_013" : {
+        "date" : "2020-04-02T21:52:00.003Z",
+        "source" : "http://coronavirus.saocarlos.sp.gov.br/1411-2/",
+        "img_table" : "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/04/IMG-20200402-WA0011-1080x641.jpg",
+        "data" : {
+            "home_isolation" : 23,
+            "hospital_admission" : 27,
+            "positive" : 2,
+            "negative" : 13,
+            "deathes_under_investigation" : 6,
+            "deathes_confirmed" : 0,
+            "home_isolation_flu-like_syndrome" : 819
+        }
+    }
+}
